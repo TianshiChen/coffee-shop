@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CONESTOGA COFFEE</title>
+</head>
+
+<style>
+  .row {
+    display: flex;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+  }
+
+  h1, h2{
+    color: #673929; 
+
+  }
+
+  /* Create two columns that sits next to each other */
+  .column1 {
+    flex: 20%;
+    /* padding: 15px; */
+  }
+
+  .column2 {
+    flex: 80%;
+    text-align: justify;
+    /* padding: 15px; */
+  }
+    img{
+    margin: 20px;
+  }
+
+  img:hover{
+    border: 3px dashed red;
+    margin: 20px;
+  }
+
+  
+</style>
+
+<body>
+  <table width="100%" border="0" cellpadding="20">
+    <tr>
+      <td colspan="2" bgcolor="darkgoldenrod">
+        <h1>
+          <font color="ffffff">WELCOME TO CONESTOGA COFFEE</font>
+        </h1>
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor="burlywood" width="200" height="600">
+        <object name="menu" type="text/html" data="menu.html" height="600" /> 
+      </td>
+
+      <td width="*" valign="top" bgcolor="mintcream">
+        <h1>Let us make your day! </h1>
+
+        <div class="row">
+          <div class="column1">
+            <img src="Latte.jpg" width="100px" height="100px" alt="">
+          </div>
+          <div class="column2">
+            <h2>Caffè Latte</h2>
+            <p>This is a traditional classic drink - espresso blended into hot milk, which is covered with a light layer
+              of milk <br /> froth. When tasting this coffee, you can choose to add a special flavor (such as vanilla, caramel or
+              almond <br /> flavor) to the syrup.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column1">
+            <img src="Mocha.jpg" width="100px" height="100px" alt="">
+          </div>
+          <div class="column2">
+            <h2>Caffè Mocha</h2>
+            <p>This coffee is made with a mellow mocha sauce, espresso and steamed milk blended together and topped with
+              <br /> whipped cream. In the cold days, in the sad times, no one can resist her temptation.</p>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="column1">
+            <img src="Cappuccino.jpg" width="100px" height="100px" alt="">
+          </div>
+          <div class="column2">
+            <h2>Cappuccino</h2>
+            <p>This coffee is made by our skilled baristas, following the traditional technique of gently pouring
+              hand-made hot milk <br /> and delicate milk froth over the espresso.</p>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="column1">
+            <img src="Espresso.jpg" width="100px" height="100px" alt="">
+          </div>
+          <div class="column2">
+            <h2>Espresso</h2>
+            <p>This is the essence of coffee, in its most concentrated form. Espresso with a touch of caramel flavor,
+              rich and fragrant.</p>
+          </div>
+        </div>
+
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" bgcolor="brown">
+        <center style="color:white; font-size: 120%">
+          <footer>&copy; Copyright 2021 Tian Shi</footer>
+        </center>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
